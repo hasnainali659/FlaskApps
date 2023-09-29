@@ -1,3 +1,9 @@
+# set FLASK_APP = models.py
+# $env:FLASK_APP="models.py"
+# flask db init
+# flask db migrate -m "models added"
+# flask db upgrade
+
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
